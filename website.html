@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Uğurcan Tural</title>
+    <style>
+        body {
+            position: relative;
+        }
+        #myİd {
+            color: #FFA900;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: large;
+            font-weight: bold;
+        }
+        .myTwoİd {
+            padding-top: 200px;
+            padding-right: 60px;
+            padding-bottom: 200px;
+            padding-left: 60px;
+        }
+        .fa-brands {
+            color: black;
+            font-weight: bold;
+            font-size: 40px;
+            padding: 10px;
+        }
+        .back {
+            background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("code.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+        .img-thumbnail {
+            background-color: black;
+            border: none;
+        }
+        .fa-instagram:hover { color: #F77737; }
+        .fa-twitter:hover { color: #1DA1F2; }
+        .fa-linkedin:hover { color: #0A66C2; }
+        .fa-github:hover { color: #6E5494; }
+        .kucukresim {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<!-- data-bs-offset piksel ayarlamakta aşağıya doğru inme hızı şeklinde -->
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="40">
+    <nav class="navbar navbar-expand-sm bg-black navbar-dark fixed-top">
+            <div class="container">
+                <div>
+                    <a href="#Anasayfa">
+                        <img src="logo.png" height="75px">
+                    </a>
+                </div>
+                <div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#Anasayfa" class="nav-link" id="myİd">
+                                <i class="fa-solid fa-house"></i> ANASAYFA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Hakkimda" class="nav-link" id="myİd">
+                                <i class="fa-solid fa-circle-info"></i> HAKKIMDA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#İletisim" class="nav-link" id="myİd">
+                                <i class="fa-solid fa-contact-book"></i> İLETİŞİM</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+
+    <!-- Anasayfa -->
+    <div class="bg-warning myTwoİd row back" id="Anasayfa">
+        <div class="col-8">
+            <div class="text-black text-center">
+                <h2 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Merhaba! Ben</h2>
+                <h1 style="font-weight: bold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">UĞURCAN TURAL</h1>
+                <div>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="foto.jpg" class="img-thumbnail">
+        </div>
+    </div>
+
+    <!-- Hakkımda -->
+    <div class="bg-danger myTwoİd row back" id="Hakkimda">
+        <div class="col-4">
+            <img src="coder.webp" class="img-fluid">
+        </div>
+        <div class="col-8">
+            <h2>Hakkımda</h2>
+        </div>
+    </div>
+
+    <!-- İletişim -->
+    <div class="bg-success myTwoİd row back" id="İletisim">
+        <div class="col-8">
+            <div class="text-black text-center">
+                <h2 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">İletişim</h2>
+                <h1 style="font-weight: bold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">UĞURCAN TURAL</h1>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="coder2.png" class="img-fluid">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
